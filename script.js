@@ -18,4 +18,6 @@ btn.addEventListener("click", async () => {
  } catch (err) { 
  apiEl.textContent = "Erro no fetch: " + err.message; 
  }
-  }); 
+Página 3 
+});
+

@@ -5,7 +5,6 @@
 ## O que foi feito 
 - Criei index.html, style.css e script.js pelo navegador 
 - Ativei GitHub Pages (main / root) 
-## Dificuldades 
  
 # Semana 2 - (GET + POST)
 ## O que foi feito 
@@ -21,3 +20,7 @@ POST:
     "id": 101
   }
 }
+
+# Semana 2 - BÔNUS (API/FETCH
+## O que foi feito 
+Adicionamos APIs públicas usando fetch() no JavaScript, essas APIs permitem que o usuário digite o nome de uma cidade e clique em “Buscar clima”. O sistema então realiza duas requisições em sequência: primeiro converte o nome da cidade em latitude e longitude, e depois utiliza essas coordenadas para buscar dados de clima, como temperatura e velocidade do vento, através das APIs geocoding e forecast. Também adicionamos um "histórico" pelo LocalStorage 
